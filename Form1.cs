@@ -16,5 +16,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
