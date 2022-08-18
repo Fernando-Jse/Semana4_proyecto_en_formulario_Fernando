@@ -10,16 +10,15 @@ using System.Windows.Forms;
 
 namespace Semana5_proyecto_en_formulario_Fernando
 {
-    public partial class Form1 : Form
+        public partial class Form1 : Form
+        {
+            
+            Random random = new Random();
+
+            List<string> icons = new List<string>()
     {
-        public Form1()
-        {
-            InitializeComponent();
+        "!", "!", "N", "N", ",", ",", "k", "k",
+        "b", "b", "v", "v", "w", "w", "z", "z"
+    };
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
 }
