@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Semana5_proyecto_en_formulario_Fernando
+
 {
-        public partial class Form1 : Form
-        {
+    public partial class Form1 : Form
+    {
             
             Random random = new Random();
 
@@ -20,5 +21,29 @@ namespace Semana5_proyecto_en_formulario_Fernando
         "!", "!", "N", "N", ",", ",", "k", "k",
         "b", "b", "v", "v", "w", "w", "z", "z"
     };
+        public Form1()
+        {
+            InitializeComponent();
+
+            AssignIconsToSquares();
         }
+        private void AssignIconsToSquares()
+        {
+
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconLabel = control as Label;
+                if (iconLabel != null)
+                {
+                    int randomNumber = random.Next(icons.Count);
+                    iconLabel.Text = icons[randomNumber];
+                    
+                    icons.RemoveAt(randomNumber);
+                }
+            }
+        }
+    }
+
 }
+
+

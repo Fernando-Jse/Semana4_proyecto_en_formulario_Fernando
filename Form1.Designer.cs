@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace Semana5_proyecto_en_formulario_Fernando
 {
     partial class Form1
@@ -273,6 +275,11 @@ namespace Semana5_proyecto_en_formulario_Fernando
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+          
         }
 
         #endregion
