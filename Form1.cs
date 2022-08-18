@@ -13,8 +13,11 @@ namespace Semana5_proyecto_en_formulario_Fernando
 {
     public partial class Form1 : Form
     {
-            
-            Random random = new Random();
+        Label firstClicked = null;
+
+        Label secondClicked = null;
+
+        Random random = new Random();
 
             List<string> icons = new List<string>()
     {
@@ -49,13 +52,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+           
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -65,13 +73,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+      
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+            
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -81,13 +94,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+               
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+           
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -97,13 +115,17 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+               
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -113,13 +135,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+               
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+        
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -129,13 +156,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+              
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+          
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -145,13 +177,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+             
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+         
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -161,13 +198,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+            
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+           
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -177,13 +219,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+              
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+           
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -193,13 +240,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+   
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+              
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -209,13 +261,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+      
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+        
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -225,13 +282,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+      
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+            
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -241,13 +303,18 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+    
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+              
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -260,7 +327,14 @@ namespace Semana5_proyecto_en_formulario_Fernando
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+              
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -273,7 +347,14 @@ namespace Semana5_proyecto_en_formulario_Fernando
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+        
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
 
@@ -286,7 +367,14 @@ namespace Semana5_proyecto_en_formulario_Fernando
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                clickedLabel.ForeColor = Color.Black;
+
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+
+                    return;
+                }
             }
         }
     }
