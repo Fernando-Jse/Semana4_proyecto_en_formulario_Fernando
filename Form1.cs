@@ -64,6 +64,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -85,6 +89,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -106,6 +114,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -126,6 +138,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -147,6 +163,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -168,6 +188,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -189,6 +213,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -210,6 +238,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -231,6 +263,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -252,6 +288,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -273,6 +313,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -294,6 +338,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -315,6 +363,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -335,6 +387,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -355,6 +411,10 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
         }
 
@@ -375,7 +435,23 @@ namespace Semana5_proyecto_en_formulario_Fernando
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+
+                timer1.Start();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+
+
+            firstClicked.ForeColor = firstClicked.BackColor;
+            secondClicked.ForeColor = secondClicked.BackColor;
+
+            firstClicked = null;
+            secondClicked = null;
         }
     }
 }
